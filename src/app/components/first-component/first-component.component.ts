@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class FirstComponentComponent {
 
+  name: string = "Roberta";
+  age: number = 40;
+  job: string = "Developer";
+
+  pessoa = {
+    nome: this.name,
+    idade: this.age,
+    prof: this.job
+  }
+
 }
